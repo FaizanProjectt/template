@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: url("bgg1.jpg");
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+
+#heading{
+    margin: 8%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:aliceblue;
+    animation-name: faizan;
+    animation-duration: 5s;
+
+}
+#line>hr{
+    width: 8%;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 3%;
+    border-color: rgb(4, 176, 198);
+    
+}
+
+@keyframes faizan{
+    0% {color:rgb(208, 255, 0); left:0px;top:0px}
+    25% {color: rgb(69, 167, 23) ; left:200px;top:0px}
+    50% {color: #E5E4E2; left:200px;top:50px}
+    75% {color:darkturquoise ; left:0px;top:50px}
+    100% {background-color: #ffffff00 ; left:0px;top:0px}
+
+
+}
+
+#mainhead{
+    
+    margin-top: 2%;
+    font-family: 'Sofia', sans-serif;
+    
+}
+
+.card{
+    display: flex;
+    height: 100%;
+    
+    /* background-color: black; */
+}
+#div1{
+    background-color: rgb(4, 176, 198);
+    height: 40%;
+    width: 35%;
+    margin-left: 10%;
+    /* margin-top: 1px; */
+    justify-content: space-between;
+    text-align: center;
+    background-image: url('bbb.jpg');
+    background-size: cover;
+    padding: 10px;
+   
+    
+}
+
+#div2>h2{
+    text-align: center;
+    /* margin-left: 1%; */
+    padding-left:3px ;
+    padding-top:14%;
+    color:blanchedalmond;
+
+}
+
+
+#div2{
+    /* background-color: red; */
+    height: 40%;
+    width: 35%;
+    color: aliceblue;
+}
+
+#div3{
+    background-color: green;
+    height: 40%;
+    width: 35%;
+    background-image: url('a.jpeg');
+    background-size: cover;
+}
+
+#div4{
+    background-color: rgb(4, 176, 198);
+    height: 40%;
+    width: 35%;
+    margin-right: 10%;
+    
+}
+
+#div4>h2{
+    text-align: center;
+    padding-left: 3px;
+    padding-top: 14%;
+    color: aliceblue;
+}
+
+p{
+    padding: 10px;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+
+.footer{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
